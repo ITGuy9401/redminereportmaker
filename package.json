@@ -1,0 +1,25 @@
+{
+  "name": "redminereportmaker",
+  "version": "1.0.0",
+  "description": "Extract data from Redmine and generate an Excel with selected month report Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITGuy9401/redminereportmaker.git"
+  },
+  "keywords": [
+    "redmine",
+    "report",
+    "export",
+    "excel"
+  ],
+  "author": "Arcangelo Vicedomini",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ITGuy9401/redminereportmaker/issues"
+  },
+  "homepage": "https://github.com/ITGuy9401/redminereportmaker#readme"
+}
