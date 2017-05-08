@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/ITGuy9401/redminereportmaker/issues"
   },
-  "homepage": "https://github.com/ITGuy9401/redminereportmaker#readme"
+  "homepage": "https://github.com/ITGuy9401/redminereportmaker#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "restler": "^3.4.0"
+  }
 }
