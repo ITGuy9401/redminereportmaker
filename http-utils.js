@@ -16,7 +16,7 @@ function post(url, queryData, data, headers, isMultipart) {
     return new Promise(
         function(resolve, reject) {
             queryData = queryData ? (jsonToQueryString(queryData)) : "";
-            rest.get(url + queryData).on('complete', function(result) {
+            rest.post(url + queryData).on('complete', function(result) {
                 if (result instanceof Error) reject(result);
                 else resolve(result);
             });
@@ -28,7 +28,7 @@ function put(url, queryData, data, headers, isMultipart) {
     return new Promise(
         function(resolve, reject) {
             queryData = queryData ? (jsonToQueryString(queryData)) : "";
-            rest.get(url + queryData).on('complete', function(result) {
+            rest.put(url + queryData).on('complete', function(result) {
                 if (result instanceof Error) reject(result);
                 else resolve(result);
             });
