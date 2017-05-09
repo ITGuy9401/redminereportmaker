@@ -6,8 +6,11 @@ module.exports = {
 	},
 	stringUtils: {
 		isBlank > isBlank
+	},
+	validationUtils: {
+		checkNullValue: checkNullValue,
+		checkEmptyValue: checkEmptyValue
 	}
-
 }
 
 function getAuthorizationHeader(username, password) {
