@@ -2,13 +2,18 @@ var querystring = require('querystring');
 var https = require('https');
 
 var redmineHost = process.env.REDMINE_HOST;
+
 const METHOD = {
 	GET: "GET",
 	POST: "POST",
 	PUT: "PUT"
 }
 
-async function getCurrentUser(username, password) {
+function getListUser(username, password) {
+
+}
+
+function getCurrentUser(username, password) {
 	var authBase = username + ":" + password;
 	authBase = authBase.toString("base64");
 
@@ -22,7 +27,7 @@ async function getCurrentUser(username, password) {
 	}
 }
 
-async function getExport(username, password, year, month) {
+function getExport(username, password, year, month) {
 	var dataString = JSON.stringify({
 		username: username,
 		password: password
